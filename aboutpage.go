@@ -8,8 +8,7 @@ import (
 )
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	pgInfo := webAnalyzer.PageInformation{}
-	renderTemplate(w, "index", &pgInfo)
+	renderTemplate(w, "index", nil)
 }
 
 func renderTemplate(w http.ResponseWriter, tmpl string, p *webAnalyzer.PageInformation) {
