@@ -27,6 +27,15 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 	renderTemplate(w, "index", nil)
 }
 
-func inputHandler(w http.ResponseWriter, r *http.Request) {
-
+func viewHandler(w http.ResponseWriter, r *http.Request) {
+	url := r.FormValue("htmlversion")
+	reader, err := loadPage(url)
+	if err != nil {
+		return
+	}
+	pgInfo, err := webAnalyzer.GetPageInformation(reader)
+	if err != nil {
+		return
+	}
+	renderTemplate(w, "view", &pgInfo)
 }
