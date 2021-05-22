@@ -6,6 +6,8 @@ import (
 
 	"io"
 
+	"log"
+
 	"github.com/ccaneke/webAnalytics/webAnalyzer"
 )
 
@@ -38,4 +40,11 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	renderTemplate(w, "view", &pgInfo)
+}
+
+func main() {
+	http.HandleFunc("/index/", indexHandler)
+	log.Fatal(http.ListenAndServe(":8080", nil))
+	http.HandleFunc("/view/", viewHandler)
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
