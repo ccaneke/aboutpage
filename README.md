@@ -65,7 +65,7 @@ Alternatively:
 // compile and install the main package
 $ go install https://github.com/ccaneke/aboutpage
 
-// run the following command in the aboutpage directory to add the install directory path for the main package to your PATH:
+// run the following command in the aboutpage directory to add the install directory path for the main package to your PATH
 $ export PATH=$PATH:$(dirname $(go list -f '{{.Target}} .)
 
 // you can then run the executable from anywhere on your system
