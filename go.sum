@@ -1,5 +1,7 @@
 github.com/ccaneke/webAnalytics v0.0.0-20210521150043-7a22c0691cec h1:V9Ggk19aZKEIbxfGahKN0fEDcXzFHaQn1haCuwPxry0=
 github.com/ccaneke/webAnalytics v0.0.0-20210521150043-7a22c0691cec/go.mod h1:c0H/jdQDyLlTcYPx7O+SkI3vnSEhhp9pevAtaNlkRBA=
+github.com/ccaneke/webAnalytics v0.0.0-20210523223517-8891ca40dbe9 h1:bep0O4vfP1ZKzJoT+PU7Znda6JKPMJXAwOYFZ30amjE=
+github.com/ccaneke/webAnalytics v0.0.0-20210523223517-8891ca40dbe9/go.mod h1:c0H/jdQDyLlTcYPx7O+SkI3vnSEhhp9pevAtaNlkRBA=
 golang.org/x/net v0.0.0-20210510120150-4163338589ed h1:p9UgmWI9wKpfYmgaV/IZKGdXc5qEK45tDwwwDyjS26I=
 golang.org/x/net v0.0.0-20210510120150-4163338589ed/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
 golang.org/x/sys v0.0.0-20201119102817-f84b799fce68/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
